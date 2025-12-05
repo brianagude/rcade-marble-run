@@ -1,0 +1,16 @@
+{
+  "$schema": "https://rcade.dev/manifest.schema.json",
+  "name": "marble-run",
+  "display_name": "marble run",
+  "description": "you are a marble, and you must run",
+  "visibility": "internal",
+  "authors": {
+    "display_name": "briana gude"
+  },
+  "dependencies": [
+    {
+      "name": "@rcade/input-classic",
+      "version": "1.0.0"
+    }
+  ]
+}
