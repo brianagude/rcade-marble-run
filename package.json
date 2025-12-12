@@ -1,6 +1,6 @@
 {
     "name": "marble-run",
-    "private": true,
+    "private": false,
     "version": "1.0.0",
     "description": "you are a marble, and you must run",
     "type": "module",
@@ -10,12 +10,20 @@
     },
     "devDependencies": {
         "concurrently": "^9.0.0",
+        "lil-gui": "^0.21.0",
         "rcade": "^0.0.39",
         "vite": "^7.2.4"
     },
     "dependencies": {
         "@rcade/plugin-input-classic": "^0.2.1",
         "@rcade/plugin-input-spinners": "^0.1.8",
-        "three": "^0.181.2"
+        "three": "^0.181.2",
+        "@react-three/drei": "^10.0.4",
+        "@react-three/fiber": "^9.1.0",
+        "@react-three/rapier": "2.0",
+        "r3f-perf": "^7.2.3",
+        "react": "19.0",
+        "react-dom": "19.0",
+        "zustand": "5.0"
     }
 }
